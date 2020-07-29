@@ -1,5 +1,9 @@
 package com.tts.TransitApp.model;
 
+
+
+
+
 public class Bus {
     public String ADHERENCE;
     public String BLOCKID;
@@ -14,6 +18,7 @@ public class Bus {
     public String TRIPID;
     public String VEHICLE;
     public double distance;
+    
 	public String getADHERENCE() {
 		return ADHERENCE;
 	}

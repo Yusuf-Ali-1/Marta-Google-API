@@ -13,3 +13,4 @@ function initMap() {
         });
     }
 }
+//	var image = {url: '/bus.png', scaledSize: new google.maps.Size(40, 40)};

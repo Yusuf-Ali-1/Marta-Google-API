@@ -32,6 +32,7 @@ public class TransitService {
 private List<Bus> getBuses(){
     RestTemplate restTemplate = new RestTemplate();
     Bus[] buses = restTemplate.getForObject(transitUrl, Bus[].class);
+    
     return Arrays.asList(buses);
 }
 
